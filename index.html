@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <!-- BASICS -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Amoeba free one page responsive bootstrap site template</title>
+
+  <style type="text/css">
+    #my {
+      border-radius: 3em;
+      border: 1px solid black;
+
+    }
+
+    #big {
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    #section-contact {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      background-image: url("img/ect/workplace-2303853_1920.jpg");
+    }
+
+    #container {
+      background-image: url("img/ect/home-office-336377_1920.jpg");
+    }
+
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+      animation-name: keyBall;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+
+    }
+
+    @keyframes keyBall {
+      from {
+        transform: translate(0px, 0px);
+      }
+
+      to {
+        transform: translate(0px, 900px);
+      }
+    }
+
+    #img1 {
+      animation: first 3s infinite alternate ease-in;
+
+    }
+
+    @keyframes first {
+
+      0% {
+        transform: translate(0px, 0px);
+        animation-timing-function: ease-in;
+      }
+
+      33% {
+        transform: translate(520px, 750px);
+        animation-timing-function: ease-out;
+      }
+
+      66% {
+        transform: translate(1020px, 0px);
+        animation-timing-function: ease-in;
+      }
+
+      80% {
+        transform: translate(1520px, 750px);
+        animation-timing-function: ease-out;
+      }
+
+      100% {
+        transform: translate(1950px, 750px);
+        animation-timing-function: ease-out;
+      }
+    }
+
+    #img1 {
+      animation-duration: 6s;
+    }
+
+    #img2 {
+      animation-duration: 5s;
+    }
+
+    #img3 {
+      animation-duration: 3s;
+    }
+
+    #img4 {
+      animation-duration: 4s;
+    }
+
+    #img5 {
+      padding-left: 850px;
+      animation-duration: 5s;
+    }
+
+    #img6 {
+      padding-left: 1200px;
+      animation-duration: 4s;
+    }
+
+    #mouse {
+      animation: mouse 1s infinite alternate ease-in;
+      cursor: pointer;    
+      
+    }
+
+    @keyframes mouse {
+      0% {
+        opacity: 1;
+      }
+
+      10% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      100% {
+        transform: translateY(30px);
+        opacity: 1;
+      }
+    }
+
+    #doldol2 {
+      animation: doldol2 2s infinite alternate ease-in;
+      cursor: grab;
+    }
+
+    #doldol2:hover {
+      opacity: .5;
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+
+    }
+
+    @keyframes doldol2 {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 1;
+        transform: rotate(10deg);
+      }
+    }
+
+    #chart_div {
+      animation: chart 1s infinite alternate ease-in;
+    }
+
+    @keyframes chart {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(5px);
+      }
+    }
+
+    #chart_div1 {
+      animation: chart1 1s infinite alternate ease-in;
+      margin-top: -30px;
+
+
+    }
+
+    @keyframes chart1 {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(5px);
+      }
+    }
+
+    #han {
+      width: 60px;
+      margin-top: 35px;
+      transform: rotate(15deg);
+      animation-name: mobile;
+      animation-duration: 3s;
+      animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes mobile {
+      0% {}
+
+      50% {
+        transform: translateY(30px) rotate(15deg);
+      }
+
+      100% {}
+    }
+
+    #con {
+      font-size: 1em;
+      color: black;
+    }
+
+    #last {
+      font-size: 1em;
+      color: black;
+    }
+
+    #chart_div1 {
+      background-color: white;
+    }
+
+
+    #span1,
+    #span2,
+    #span3,
+    #span4,
+    #span5,
+    #span6,
+    #span7 {
+      animation: span1 1s infinite alternate ease-out;
+      display: inline-block;
+
+    }
+
+    @keyframes span1 {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(3px);
+      }
+    }
+
+    #b1 {
+      border: 1px solid white;
+      background-color: cornflowerblue;
+      color: white;
+      border-radius: 10px;
+      position: relative;
+      left: 135px;
+      bottom: 50px;
+    }
+
+   /* #imggif {
+
+      display: inline-block;
+
+      position: relative;
+      left: -35px;
+      bottom: 50px;
+
+
+    }*/
+  </style>
+
+  <!-- SKILL -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', { packages: ['corechart', 'bar'] });
+    google.charts.setOnLoadCallback(drawMultSeries);
+
+    function drawMultSeries() {
+      var data = google.visualization.arrayToDataTable([
+
+        ['Abilty', '%'],
+        ['JAVA', 80],
+        ['JAVASCRIPT', 80],
+        ['CSS', 90],
+        ['HTML5', 90],
+        ['JQUERY', 80]
+      ]);
+      var options = {
+        title: 'Personal characteristics',
+        chartArea: { width: '50%' },
+        hAxis: {
+          minValue: 0
+        }
+      };
+      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    }
+  </script>
+
+  <script>
+
+    var img1, img2, img3, img4, img5, img6;
+    var doldol2, mouse;
+    var b1;
+    var span1, span2, span3, span4, span5, span6, span7;
+
+    window.onload = function () {
+      img1 = document.getElementById("img1");
+      img2 = document.getElementById("img2");
+      img3 = document.getElementById("img3");
+      img4 = document.getElementById("img4");
+      img5 = document.getElementById("img5");
+      img6 = document.getElementById("img6");
+      doldol2 = document.getElementById("doldol2");
+      mouse = document.getElementById("mouse");
+      b1 = document.getElementById("b1");
+
+      span1 = document.getElementById("span1");
+      span2 = document.getElementById("span2");
+      span3 = document.getElementById("span3");
+      span4 = document.getElementById("span4");
+      span5 = document.getElementById("span5");
+      span6 = document.getElementById("span6");
+      span7 = document.getElementById("span7");
+
+      b1.onclick = function () {
+        span1.style.transform = "rotate(180deg)";
+        span2.style.transform = "translateX(180px)";
+        span3.style.transform = "translateY(500px)";
+        span4.style.transform = "rotate(360deg)";
+        span5.style.transform = "translateX(-300px)";
+        span6.style.transform = "translateY(-500px)";
+        span7.style.transform = "rotate(-180deg)";
+
+      };
+    }     
+  </script>
+
+  <!-- Project -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', { 'packages': ['gantt'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Task ID');
+      data.addColumn('string', 'Task Name');
+      data.addColumn('string', 'Resource');
+      data.addColumn('date', 'Start Date');
+      data.addColumn('date', 'End Date');
+      data.addColumn('number', 'Duration');
+      data.addColumn('number', 'Percent Complete');
+      data.addColumn('string', 'Dependencies');
+
+      data.addRows([
+        ['쌍용교육센터 2019', '쌍용교육센터 2019', 'spring',
+          new Date(2019, 1, 28), new Date(2019, 08, 23), null, 100, null],
+        ['랜덤여행 프로젝트 2019', '랜덤여행 프로젝트 2019', 'summer',
+          new Date(2019, 3, 25), new Date(2019, 3, 29), null, 100, null],
+        ['세인 학원 프로젝트 2019', '세인 학원 프로젝트 2019', 'autumn',
+          new Date(2019, 4, 15), new Date(2019, 4, 19), null, 100, null],
+        ['홈페이지 제작 2019', '개인 프로젝트 2019', 'winter',
+          new Date(2019, 5, 27), new Date(2019, 5, 31), null, 100, null],
+        ['와인 프로젝트 2019', '와인 프로젝트 2019', 'spring',
+          new Date(2019, 6, 24), new Date(2019, 6, 28), null, 50, null],
+        ['금융 프로젝트 2019', '금융 프로젝트 2019', 'summer',
+          new Date(2019, 7, 22), new Date(2019, 7, 26), null, 0, null]
+      ]);
+
+      var options = {
+        height: 250,
+        gantt: {
+          trackHeight: 36
+        }
+      };
+
+      var chart = new google.visualization.Gantt(document.getElementById('chart_div1'));
+      chart.draw(data, options);
+    }
+  </script>
+
+
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- skin -->
+  <link rel="stylesheet" href="skin/default.css">
+  <script src="js/highcharts.js"></script>
+  <script src="js/highcharts-more.js"></script>
+  <script src="js/exporting.js"></script>
+  <script src="js/export-data.js"></script>
+  <script src="js/sub.js"></script>
+  <section id="header" class="appear"></section>
+</head>
+
+<body>
+
+  <div class="navbar navbar-fixed-top" role="navigation"
+    data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);"
+    data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="fa fa-bars color-white"></span>
+        </button>
+        <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">
+          </a></h1>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav" data-0="margin-top:30px;" data-300="margin-top:5px;">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#section-about">About Me</a></li>
+          <li><a href="#section-project">Project</a></li>
+          <li><a href="#section-portfolio">Portfolio</a></li>
+          <li><a href="#section-contact1">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 메인이미지 -->
+  <section class="featured">
+    <div class="container">
+      <div class="row mar-bot40">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="align-center">
+            <img src="img/ect/돌돌이.png" id="doldol2">
+            <h2 class="slogan">Web Designer</h2>
+            <h2 class="slogan">Web Publisher</h2>
+            <p><br>
+              <img src="img/ect/m_scrollsho.png" id="mouse">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 위에 상태 바  -->
+  <section id="twoimg"
+    style="background-image: url(img/ect/workplace-2303853_1920.jpg); background-size: cover;  width: 100%; height:1180px;">
+    <img src="img/ect/jsp.png" id="img1">
+    <img src="img/ect/c언어.png" id="img2">
+    <img src="img/ect/자바.png" id="img3">
+    <img src="img/ect/제이쿼리.png" id="img4">
+    <div id="img5">
+      <h2 style="font: bold; color: black;">Web designer</h2>
+    </div>
+    <div id="img6">
+      <h2 style="font: bold; color: black;">Web publisher</h2>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section id="section-about" class="section pad-bot30 bg-white">
+    <div class="container">
+      <div class="row mar-bot40">
+        <div class="col-lg-4">
+          <div class="align-center">
+            <img src="img/ect/asdasdasd.jpg" id="my">
+            <br>
+            <h4 class="text-bold" style="padding: 33px;">C A R E E R</h4>
+            <p class="text-bold" style="color: black;">대학교 경영학과 졸업</p>
+            <p class="text-bold" style="color: black;"> 강남 쌍용교육센터 수료</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="text-center">
+            <h4 class="text-bold"></h4>
+            <i class="fa fa-terminal fa-5x mar-bot10"></i>
+            <h4 class="text-bold" style="padding: 25px;">E D U C A T I O N</h4>
+            <p class="text-bold" style="color: black;"> NAME : 박 준 우 </p><br>
+            <p class="text-bold" style="color: black;"> B-DAY : 1988. 09. 14 </p><br>
+            <p class="text-bold" style="color: black;"> ADDRESS : 경기도 광주시 </p><br>
+            <p class="text-bold" style="color: black;"> MOBILE : 000 0000 0000 </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="align-center">
+            <i class="fa fa-bolt fa-5x mar-bot25" style="margin-top: 15px;"></i>
+            <h4 class="text-bold" style="padding: 14px;">A B I L T Y</h4>
+            <div id="chart_div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- spacer section:testimonial -->
+  <section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="align-center">
+            <div class="testimonial pad-top40 pad-bot40 clearfix">
+              <h5 style="font: bold;">
+                JAVA / JAVASCRIPT / CSS / HTML5
+                <br>
+                Efficiency is oriented towards good optimized code.
+                <br>
+                We prefer the code that uses the least amount of memory, and we will learn and learn for the best codeof
+                the developer.
+              </h5>
+              <br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="section-project" class="section appear clearfix">
+    <div class="container">
+      <div class="row mar-bot40">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <i class="fa fa-flask fa-5x mar-bot20" style="color: tomato;"></i>
+            <h2 class="section-heading animated" data-animation="bounceInUp">
+              <span style="color: #2A56C6;" id="span1">P</span>
+              <span style="color: #A52714;" id="span2">R</span>
+              <span style="color: #EE8100;" id="span3">O</span>
+              <span style="color: #0B8043;" id="span4">J</span>
+              <span style="color: #2A56C6;" id="span5">E</span>
+              <span style="color: #DB4437;" id="span6">C</span>
+              <span style="color: black;" id="span7">T</span>
+            </h2>
+            <input type="button" value="Button" id="b1">
+            <img src="img/ect/ezgif-5-f8a17032fee8.gif" style="float: left; margin-left: -300px; margin-top: -100px; border-radius: 30px;"  id="imggif">
+            <div id="chart_div1" style="width: 777px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- image -->
+  <section id="parallax1" class="section pad-top40 pad-bot40" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="align-center pad-top40 pad-bot40">
+        <blockquote class="bigquote color-white">Development is creative</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio 사진-->
+  <section id="section-portfolio" class="section appear clearfix">
+    <div class="container">
+      <div class="row mar-bot40">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated" data-animation="bounceInUp">Portfolio</h2>           
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <nav id="filter" class="col-md-12 text-center">
+          <ul>
+            <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
+            <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+          </ul>
+        </nav>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+              <article class="col-md-4 isotopeItem webdesign">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_223528846.png" alt=""/>
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">JAVA PROJECT</a></h5>
+                      <a href="https://github.com/PJW0914/JAVA" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_223528903.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">SQL PROJECT</a></h5>
+                      <a href="https://github.com/PJW0914/SQL.git" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_223528965.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">PORTFOLIO PROJECT</a></h5>
+                      <a href="img/portfolio/img3.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_224218810.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Portfolio name</a></h5>
+                      <a href="img/portfolio/img4.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_224218810.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Portfolio name</a></h5>
+                      <a href="img/portfolio/img5.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem webdesign">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_224218810.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Portfolio name</a></h5>
+                      <a href="img/portfolio/img6.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_224218810.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Portfolio name</a></h5>
+                      <a href="img/portfolio/img7.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_224218810.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Portfolio name</a></h5>
+                      <a href="img/portfolio/img8.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="img/ect/KakaoTalk_20190603_224218810.png" alt="" />
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Portfolio name</a></h5>
+                      <a href="img/portfolio/img9.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- image -->
+  <section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">
+    <div class="align-center pad-top40 pad-bot40">
+      <blockquote class="bigquote color-white">Indoctum accusamus comprehensam</blockquote>
+      <p class="color-white">Bootstraptaste</p>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="section-contact1" class="section appear clearfix">
+    <div class="container">
+      <div class="row mar-bot40">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated" data-animation="bounceInUp">"Thanks for your visiting!"</h2>
+            <img src="img/ect/핸드폰.png" id="han"><br><br><br>
+            <em></em>
+            <span id="con">
+              "010 - 0000 - 0000"
+              <br>
+              "oetamgod@naver.com"
+            </span><br>
+            <p id="last" style="font: bold;">COPYRIGHT ⓒ 2019 by PARK JUN WOO . all rights reserved.</p>
+  </section>
+
+  <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.localScroll.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/main.js"></script>
+  <script src="contactform/contactform.js"></script>
+</body>
+
+</html>
